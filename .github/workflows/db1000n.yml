@@ -1,5 +1,13 @@
 name: db1000n workflow
 
+on: 
+  workflow_dispatch:
+    inputs:
+      smile:
+        description: ''
+        default: ''
+        type: string
+        required: false
 jobs:
   docker-run:
     runs-on: ubuntu-latest
