@@ -1,0 +1,13 @@
+name: db1000n workflow
+
+jobs:
+  docker-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install db1000n
+        run: |
+          go install github.com/Arriven/db1000n@latest
+
+      - name: Run a multi-line script
+        run: |
+          ~/go/bin/db1000n
