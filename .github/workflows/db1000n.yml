@@ -3,7 +3,7 @@ name: db1000n workflow
 on: 
   workflow_dispatch:
     inputs:
-      smile:
+      russian_ship_go_fuck_yourself:
         description: ''
         default: ''
         type: string
